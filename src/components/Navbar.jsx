@@ -13,18 +13,18 @@ const Navbar = () => {
                         <img src={shadow} alt="" />
                     </div>
             <Container>
-                <div className="flex justify-between  items-center lg:mx-0 mx-[10px]">
+                <div className="flex justify-between  items-center lg:mx-0 mx-[20px]">
                     <div className="flex items-center lg:gap-x-[74px] ">
-                        <div className="lg:w-full w-[70%]" >
+                        <div className="lg:w-full w-[238.56px]" >
                             <img src={logo} alt="" />
                         </div>
-                        <div className="hidden md:block">
+                        <div className="hidden md:block w-[398px]  ">
                             <ul className='flex gap-x-[33px]' >
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> Home</a></li>
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> About</a></li>
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> Pricing</a></li>
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> Consulting</a></li>
-                                <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#">Ai Coach</a></li>
+                                <li className='text-[14px] text-[#020407] font-semibold leading-[100%] w-[61px] hover:text-[#002868] duration-200'><a href="#">Ai Coach</a></li>
                             </ul>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                     </div> 
                 </div>
             </Container>
-            <div className={` top-0 right-0 w-[280px] absolute  max-h-auto bg-white z-50 shadow-lg transform transition-transform duration-300 ${show ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={` top-0 right-0 w-[280px] absolute  h-100dvh bg-white z-50 shadow-lg transform transition-transform duration-300 ${show ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex justify-end  mt-[33px] mr-[10px] ">
                 <button onClick={() => setShow(false)}>
                 <RxCross2 className="text-[28px]" />

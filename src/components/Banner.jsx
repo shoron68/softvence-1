@@ -10,7 +10,7 @@ const Banner = () => {
     <div className='pt-[84px] pb-[60px] relative '>
         
         <Container>
-            <div className="lg:flex lg:mx-0 mx-[10px]" >
+            <div className="lg:flex lg:mx-0 mx-[20px]" >
                 <div className="lg:w-1/2">
                 <div className="">
                     <h1 className='lg:text-[80px] text-[40px] lg:text-start text-center font-manrope font-medium lg:w-[516px]'>Your AI-Powered Sales Coach</h1>
@@ -52,16 +52,16 @@ const Banner = () => {
                     <img src={robo2} alt="" />
 
                     <div className="lg:h-[359px] lg:w-[467px] bg-[#fff] rounded-[27px] shadow-xl absolute lg:bottom-[-120px] bottom-[-200px] left-0">
-                    <div className="lg:pl-[24.67px] lg:px-0 px-[10px] lg:pt-[50px] lg:py-0 py-[30px]">
-                    <div className="flex lg:gap-x-[140px] gap-x-[90px]">
+                    <div className=" lg:px-0 px-[10px] lg:pt-[50px] lg:py-0 py-[30px]">
+                    <div className="flex lg:gap-x-[140px] gap-x-[90px] lg:pl-[24.67px]">
                         <h4 className='lg:text-[50px] text-[24px] font-manrope font-semibold text-[#00245F] '>721+</h4>
                         <h4 className='lg:text-[50px] text-[24px] font-manrope font-semibold text-[#00245F] '>1000+</h4>
                     </div>
-                    <div className="lg:pt-[23px] pt-[10px]">
+                    <div className="lg:pt-[23px] lg:pl-[28px] pt-[10px]">
                         <h3 className='lg:text-[27.98px] text-[20px] font-manrope font-semibold text-[#05131D]'>Growth is our priority.</h3>
                     </div>
-                    <div className="lg:pt-[39px] pt-[15px]">
-                        <p className='lg:text-[17px] text-[14px] lg:text-start text-center mx-auto  w-[230px] font-poppins font-medium leading-[163%] lg:w-[407px] text-[rgba(5,19,29,0.71)] '>As a full-service business agency, we specialize in helping companies of all sizes optimize their operations</p>
+                    <div className="lg:pt-[39px] lg:pl-[28px]">
+                        <p className='lg:text-[17px] text-[14px] lg:text-start text-center lg:mx-0 mx-auto  w-[230px] font-poppins font-medium leading-[163%] lg:w-[407px] text-[rgba(5,19,29,0.71)] '>As a full-service business agency, we specialize in helping companies of all sizes optimize their operations</p>
                     </div>
                     </div>
                 </div>
