@@ -24,7 +24,7 @@ const LiveAi = () => {
                 <h2 className='lg:text-[60px] text-[40px] text-[#ffffff] font-questrial font-normal leading-[120%] pt-[20px] lg:text-start text-center '>Take a Suggestion Coaching </h2>
             </div>
             <div className="lg:flex items-center pt-[60px] ">
-                <div className="h-[577px] lg:w-[787px] bg-[#fff] lg:rounded-[12px] ">
+                <div className="h-[577px] lg:w-[787px] bg-[#fff] lg:rounded-[12px] lg:mx-0 mx-[10px] rounded-[5px] ">
                     <div className="pt-[16px] pb-[24px] lg:pl-[32px] pl-[20px]">
                         <h5 className='text-[18px] text-[#1B1B1B] font-manrope font-bold' >AI Sales Coach</h5>
                     </div>
@@ -38,10 +38,10 @@ const LiveAi = () => {
                     </div>
                     <div className="lg:flex  gap-x-[10px] pl-[31px] pt-[16px] ">
                         <div className="">
-                            <p className='text-[14px] font-geist font-normal text-[#002868] tracking-[-4%] py-[7px] lg:w-full w-[59%] px-[12px] bg-[#EBEEF3] rounded-[36px] ' >How do I handle objections?</p>
+                            <p className='text-[14px] font-geist font-normal text-[#002868] tracking-[-4%] py-[7px] lg:w-full w-[62%] px-[12px] bg-[#EBEEF3] rounded-[36px] ' >How do I handle objections?</p>
                         </div>
                         <div className="lg:py-0 py-[10px]">
-                            <p className='text-[14px] font-geist font-normal text-[#002868] tracking-[-4%] py-[7px] lg:w-full w-[63%] px-[12px] bg-[#EBEEF3] rounded-[36px] ' >Give me a cold email template</p>
+                            <p className='text-[14px] font-geist font-normal text-[#002868] tracking-[-4%] py-[7px] lg:w-full w-[66%] px-[12px] bg-[#EBEEF3] rounded-[36px] ' >Give me a cold email template</p>
                         </div>
                         <div className="lg:block hidden">
                             <p className='text-[14px] font-geist font-normal text-[#002868]  tracking-[-4%] py-[7px] px-[12px] lg:w-full w-[43%] bg-[#EBEEF3] rounded-[36px]' >Closing techniques</p>

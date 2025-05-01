@@ -24,7 +24,7 @@ const Navbar = () => {
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> About</a></li>
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> Pricing</a></li>
                                 <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> Consulting</a></li>
-                                <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#"> Ai Coach</a></li>
+                                <li className='text-[14px] text-[#020407] font-semibold leading-[100%] hover:text-[#002868] duration-200'><a href="#">Ai Coach</a></li>
                             </ul>
                         </div>
                     </div>
