@@ -43,7 +43,7 @@ const Navbar = () => {
                     </div> 
                 </div>
             </Container>
-            <div className={` top-0 right-0 w-[280px] absolute  h-100dvh bg-white z-50 shadow-lg transform transition-transform duration-300 ${show ? 'translate-x-0' : 'translate-x-full'}`}>
+            <div className={` top-0 right-0 w-[300px] absolute  h-[100dvh] bg-white z-50 shadow-lg transform transition-transform duration-300 ${show ? 'translate-x-0' : 'translate-x-full'}`}>
                 <div className="flex justify-end  mt-[33px] mr-[10px] ">
                 <button onClick={() => setShow(false)}>
                 <RxCross2 className="text-[28px]" />
