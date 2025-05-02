@@ -17,7 +17,7 @@ const Courses = () => {
                         <p className='lg:text-[18px] text-[16px] leading-[150%] lg:text-start text-center  font-manrope font-normal text-[#59595A] '>Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.</p>
                     </div>
                     <div className="pt-[6px] flex justify-center lg:block lg:mt-0 mt-[10px]">
-                        <a className='lg:py-[18px] py-[12px] lg:px-[24px] px-[20px] text-[#fff] text-[18px] font-manrope font-medium bg-[#002868] border-[1px] border-[#002868] rounded-[7px] hover:bg-[#fff] hover:text-[#002868] hover:border-[1px] hover:border-[#002868] duration-200 ' href="#">View All</a>
+                        <a className='lg:py-[18px] py-[12px] lg:px-[24px] px-[20px] text-[#fff] text-[18px] font-manrope font-medium bg-[#002868] border-[1px] border-[#002868] rounded-[7px] hover:bg-[#002868ea] hover:text-[#fff] hover:border-[1px] hover:border-[#002868] duration-200 ' href="#">View All</a>
                     </div>
                 </div>
                 <div className="lg:flex justify-between pt-[48px] ">
@@ -44,8 +44,8 @@ const Courses = () => {
                             <h2 className='text-[24px] lg:text-start text-center font-manrope font-semibold text-[#262626] leading-[150%]'>Web Design Fundamentals</h2>
                             <p className='text-[18px] lg:text-start text-center text-[#4C4C4D] font-manrope font-normal leaing-[150%] pt-[14px]'>Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.</p>
                         </div>
-                        <div className="pt-[30px] pb-[50px]">
-                            <a className='text-[18px] text-[#fff] font-Vietnam font-medium py-[18px] lg:px-[258px] px-[100px]  bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
+                        <div className="pt-[30px] pb-[50px] lg:mx-0 mx-auto">
+                            <a className='text-[18px] text-[#fff] font-Vietnam lg:mx-0 mx-auto font-medium py-[18px] lg:px-[258px] px-[100px]  bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
                         </div>
                         </div>
                     </div>
@@ -74,8 +74,8 @@ const Courses = () => {
                             <h2 className='text-[24px] lg:text-start text-center font-manrope font-semibold text-[#262626] leading-[150%]'>Web Design Fundamentals</h2>
                             <p className='text-[18px] lg:text-start text-center text-[#4C4C4D] font-manrope font-normal leaing-[150%] pt-[14px]'>Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.</p>
                         </div>
-                        <div className="pt-[30px] pb-[50px]">
-                            <a className='text-[18px] text-[#fff] font-Vietnam font-medium py-[18px] lg:px-[258px] px-[100px]  bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
+                        <div className="pt-[30px] pb-[50px] lg:mx-0 mx-auto">
+                            <a className='text-[18px] text-[#fff] lg:mx-0 mx-auto font-Vietnam font-medium py-[18px] lg:px-[258px] px-[100px]  bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
                         </div>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Container from './Container'
 import { IoMdArrowUp } from "react-icons/io";
 import {Volume2,ThumbsUp,ThumbsDown,RefreshCcw,Clipboard} from "lucide-react"
@@ -15,6 +15,9 @@ import message from "../assets/message.png"
 
 
 const LiveAi = () => {
+const [show,setShow] =useState()
+console.log(show);
+
   return (
     <div className='relative z-50  '>
         <div className="w-full lg:mt-0 mt-[170px] bg-gradient-to-r from-[#103570] to-[#004FCE] ">
@@ -52,7 +55,7 @@ const LiveAi = () => {
                     </div>
                     <div className="flex lg:gap-x-[12px] gap-x-[10px] items-center lg:pl-[34px] pl-[20px] pt-[16px] pb-[24px]">
                        <div className="">
-                       <input type="text" placeholder='Ask anything you need' className='text-[14px] font-manrope text-[#9A9A9A] font-normal h-[40px] lg:h-[48px] lg:w-[600px] w-[220px] border-[1px] rounded-[5px] border-[#E5E7EB] lg:pl-[23px] pl-[10px] focus:outline-none' />
+                       <input onChange={(e)=>setShow(e.target.value)} type="text" placeholder='Ask anything you need' className='text-[14px] font-manrope text-[#9A9A9A] font-normal h-[40px] lg:h-[48px] lg:w-[600px] w-[220px] border-[1px] rounded-[5px] border-[#E5E7EB] lg:pl-[23px] pl-[10px] focus:outline-none' />
                        </div>
                        <div className="">
                         <a href="" className='flex items-center lg:py-[12px] py-[7px] lg:px-[14px] px-[10px] gap-x-[12px] rounded-[8px] bg-[#002868] text-[#fff] font-geist font-medium text-[17px]' >Send <IoMdArrowUp className='h-[20px] w-[20px] text-[#fff]'/> </a>

@@ -7,7 +7,7 @@ import { MdBackupTable } from "react-icons/md";
 
 const Banner = () => {
   return (
-    <div className='pt-[84px] pb-[60px] relative '>
+    <div className='pt-[94px] pb-[60px] relative '>
         
         <Container>
             <div className="lg:flex lg:mx-0 mx-[20px]" >
@@ -24,9 +24,9 @@ const Banner = () => {
                     </div>
                     
                 </div>
-                <div className="lg:flex lg:gap-x-[55px] lg:pt-[92px] pt-[30px] lg:pb-0 ">
+                <div className="lg:flex lg:gap-x-[55px] lg:pt-[88px] pt-[30px] lg:pb-0 ">
                 <div className="flex gap-x-[34px]">
-                        <div className=" h-[86.78px] w-[89px] bg-[#fff] rounded-[15.57px] shadow-xl flex items-center">
+                        <div className=" h-[86.78px] w-[89px] bg-[#fff] rounded-[15.57px] shadow-2xl flex items-center">
                             <MdBackupTable className='h-[55px] w-[55px] mx-auto text-[#062F71]' />
                         </div>
                         <div className="">
@@ -36,7 +36,7 @@ const Banner = () => {
                     </div>
 
                     <div className="flex gap-x-[34px] lg:pt-0 pt-[20px]">
-                        <div className=" h-[86.78px] w-[89px] bg-[#fff] rounded-[15.57px] shadow-xl flex items-center">
+                        <div className=" h-[86.78px] w-[89px] bg-[#fff] rounded-[15.57px] shadow-2xl flex items-center">
                             <img src={atr} className='h-[38px] w-[40px] mx-auto ' alt="" />
                             
                         </div>
@@ -49,9 +49,9 @@ const Banner = () => {
                 </div>
                 <div className="lg:w-1/2 lg:pt-0 pt-[50px]">
                 <div className=" flex justify-end relative">
-                    <img src={robo2} alt="" />
+                    <img src={robo2} className='lg:w-[583px] lg:h-[628px]' alt="" />
 
-                    <div className="lg:h-[359px] lg:w-[467px] bg-[#fff] rounded-[27px] shadow-xl absolute lg:bottom-[-120px] bottom-[-200px] left-0">
+                    <div className="lg:h-[359px] lg:w-[467px] bg-[#fff] rounded-[27px] shadow-lg absolute lg:bottom-[-120px] bottom-[-200px] lg:left-[-28px]">
                     <div className=" lg:px-0 px-[10px] lg:pt-[50px] lg:py-0 py-[30px]">
                     <div className="flex lg:gap-x-[140px] gap-x-[90px] lg:pl-[24.67px]">
                         <h4 className='lg:text-[50px] text-[24px] font-manrope font-semibold text-[#00245F] '>721+</h4>
