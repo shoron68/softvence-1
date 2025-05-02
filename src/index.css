@@ -19,7 +19,6 @@
   max-width: 100%;
   overflow: hidden;
   background-size: cover;
-  position: fixed;
 }
 
 @keyframes float {
