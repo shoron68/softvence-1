@@ -43,7 +43,7 @@ const Banner = () => {
                                       {({ countUpRef }) => (
                                           <span
                                               ref={countUpRef}
-                                              className="text-[40px] font-semibold text-[#05131D]"
+                                              className="text-[40px] font-manrope font-semibold text-[#05131D]"
                                           />
                                       )}
                                   </CountUp>
@@ -61,7 +61,7 @@ const Banner = () => {
                                       {({ countUpRef }) => (
                                           <span
                                               ref={countUpRef}
-                                              className="text-[40px] font-semibold text-[#05131D]"
+                                              className="text-[40px] font-manrope  font-semibold text-[#05131D]"
                                           />
                                       )}
                                   </CountUp>
