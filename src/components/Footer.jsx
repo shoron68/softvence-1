@@ -39,18 +39,26 @@ const Footer = () => {
                         </div>
                         <p className='text-[14px] leadig-[24px] text-[#335386] lg:text-start text-center font-manrope lg:w-[534px] font-normal pt-[30px]'>SalesRank.AI offers a comprehensive suite of AI-powered solutions to help you find expert sales professionals who can elevate every aspect of your business. From performance rankings and skill verification to industry benchmarking and real-time analytics, we provide the insights and tools to optimize your sales strategy and drive growth.</p>
                         <div className="flex items-center gap-x-[12px] pt-[30px] lg:justify-start justify-center">
-                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center">
-                                <RiFacebookFill className='text-[#002868]' />
+                            <a href="#">
+                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center text-[#002868] hover:text-[#fff] hover:bg-[#002868] duration-200">
+                                <RiFacebookFill className='' />
                             </div>
-                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center">
-                                <FaTwitter className='text-[#002868]' />
+                            </a>
+                            <a href="#">
+                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center text-[#002868] hover:text-[#fff] hover:bg-[#002868] duration-200">
+                                <FaTwitter className='' />
                             </div>
-                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center">
-                                <FaLinkedinIn className='text-[#002868]' />
+                            </a>
+                            <a href="#">
+                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center text-[#002868] hover:text-[#fff] hover:bg-[#002868] duration-200">
+                                <FaLinkedinIn className='' />
                             </div>
-                            <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center">
-                                <FaInstagram className='text-[#002868]' />
+                            </a>
+                           <a href="#">
+                           <div className="h-[34px] w-[34px] rounded-full bg-[#fff] flex justify-center items-center text-[#002868] hover:text-[#fff] hover:bg-[#002868] duration-200">
+                                <FaInstagram className='' />
                             </div>
+                           </a>
                         </div>
                     </div>
                     <div className="lg:flex lg:pt-0 pt-[30px] ">
@@ -58,20 +66,20 @@ const Footer = () => {
                             <div className="lg:pl-[257px] ">
                                 <h4 className='text-[18px] font-manrope text-[#001C4A] font-semibold leading-auto lg:text-start text-center'>Navigation</h4>
                                 <ul className='lg:pt-[36px] pt-[20px]'>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto lg:text-start text-center'>Service</li>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center'>Agency</li>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center'>Case Study</li>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center'>Resource</li>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center'>Contact</li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto lg:text-start text-center hover:underline hover:text-[#002868] '><a href="#">Service</a></li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Agency</a></li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Case Study</a></li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Resource</a></li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                             <div className="lg:pl-[115px]">
                                 <h4 className='text-[18px] font-manrope text-[#001C4A] font-semibold leading-auto lg:text-start text-center'>Licence</h4>
                                 <ul className='lg:pt-[36px] pt-[20px]'>
 
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto lg:text-start text-center'>Privacy Policy</li>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center'>Copyright</li>
-                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center'>Email Address</li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Privacy Policy</a></li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Copyright</a></li>
+                                    <li className='text-[14px] font-manrope text-[#335386] font-normal leading-auto pt-[17px] lg:text-start text-center hover:underline hover:text-[#002868]'><a href="#">Email Address</a></li>
                                 </ul>
                             </div>
                         </div>

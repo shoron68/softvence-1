@@ -104,7 +104,7 @@ const Faq = () => {
             <div key={index} className="border-b border-[#CCCCCC] lg:py-[30px] lg:pb-[40px] pb-[20px] lg:pt-0 pt-[10px]">
               <button
                 onClick={() => toggle(index)}
-                className="w-full flex justify-between items-center"
+                className="w-full flex justify-between items-center lg:pt-[40px] pt-[20px]"
               >
                 <div className="flex lg:gap-x-[40px] gap-x-[10px] items-center cursor-pointer" >
                   <span className="text-[#8B7D4C] font-normal lg:text-[32px] w-[40px] font-questrial">{item.number}</span>

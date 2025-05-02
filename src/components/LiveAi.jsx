@@ -77,7 +77,7 @@ const LiveAi = () => {
                                     <div className="lg:pl-[30px] lg:px-0 px-[10px] py-[30px] ">
                                         <h3 className='text-[32px] text-[#323232] font-manrope font-bold'>Real-time Analysis</h3>
                                         <div className="h-[84px] lg:w-[475px] bg-[#FFFFFF] border-[1px] border-[#E7E7E7] rounded-[10px] lg:pl-[16px] mt-[20px] ">
-                                            <div className="flex gap-x-[4px] pt-[16px]">
+                                            <div className="flex gap-x-[4px] items-center pt-[16px]">
                                                 <div className=" lg:pl-0 pl-[10px] ">
                                                     <FaCheckCircle className='text-[#06B217] text-[20px]' />
                                                 </div>
@@ -117,16 +117,20 @@ const LiveAi = () => {
                                     <div className="lg:pl-[30px] pt-[30px] ">
                                         <h3 className='text-[32px] text-[#323232] font-manrope font-bold h-[44px] lg:text-start text-center'>Quick Actions</h3>
                                         <div className="lg:flex gap-x-[20px] pt-[20px] ">
-                                            <div className="h-[96px] lg:mx-0 mx-auto w-[227px] bg-[#FFFFFF] border-[1px] border-[#E7E7E7] rounded-[8px]">
-                                                <div className="pt-[16px] pl-[16px]">
+                                            <div className="h-[96px] lg:mx-0 mx-auto lg:w-[227px] w-[300px] bg-[#FFFFFF] border-[1px] border-[#E7E7E7] rounded-[8px]">
+                                                <div className="pt-[16px] lg:pl-[16px]">
+                                                    <div className="lg:block flex justify-center">
                                                     <img src={paper} className='h-[32px] w-[32px]' alt="" />
-                                                    <h5 className='text-[18px] mt-[8px] text-[3171D25] font-manrope font-semibold leading-[132%]'>Generate Script</h5>
+                                                    </div>
+                                                    <h5 className='text-[18px] mt-[8px] text-[3171D25] lg:text-start text-center font-manrope font-semibold leading-[132%]'>Generate Script</h5>
                                                 </div>
                                             </div>
-                                            <div className="h-[96px] w-[227px] bg-[#FFFFFF] lg:mx-0 mx-auto border-[1px] border-[#E7E7E7] rounded-[8px] lg:mt-0 mt-[20px]">
-                                                <div className="pt-[16px] pl-[16px]">
-                                                    <img src={message} className='h-[32px] w-[32px]' alt="" />
-                                                    <h5 className='text-[18px] text-[3171D25] mt-[8px] font-manrope font-semibold leading-[132%]'>Generate Script</h5>
+                                            <div className="h-[96px] lg:w-[227px] w-[300px] bg-[#FFFFFF] lg:mx-0 mx-auto border-[1px] border-[#E7E7E7] rounded-[8px] lg:mt-0 mt-[20px]">
+                                                <div className="pt-[16px] lg:pl-[16px]">
+                                                     <div className="lg:block flex justify-center">
+                                                     <img src={message} className='h-[32px] w-[32px]' alt="" />
+                                                     </div>
+                                                    <h5 className='text-[18px] text-[3171D25] mt-[8px] font-manrope lg:text-start text-center font-semibold leading-[132%]'>Generate Script</h5>
                                                 </div>
                                             </div>
                                         </div>
