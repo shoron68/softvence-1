@@ -1,17 +1,13 @@
 import React,{useState} from 'react'
 import Container from './Container'
 import logo from "../assets/logo.png"
-import shadow from "../assets/shadow.png"
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
     let [show,setShow]=useState(false)
     return (
-        <div className='py-[30px] relative z-50'>
-            <div className="absolute top-[-100px] left-0 -z-10" >
-                        <img src={shadow} alt="" />
-                    </div>
+        <div className='py-[30px] relative'>
             <Container>
                 <div className="flex justify-between  items-center lg:mx-0 mx-[20px]">
                     <div className="flex items-center lg:gap-x-[74px] ">

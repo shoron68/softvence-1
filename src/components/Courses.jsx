@@ -24,7 +24,7 @@ const Courses = () => {
                     <div className="lg:w-[1/2]">
                     <div className="bg-[#F0F0F0] rounded-[15px] lg:w-[705px]  ">
                         <div className="lg:w-[605.81px] lg:mx-auto mx-[25px] lg:pt-[50px] lg:pb-[30px] py-[30px]">
-                        <div className="">
+                        <div className=" lg:block flex justify-center">
                         <img src={robo3} alt="" />
                         </div>
                         <div className="flex pt-[30px] justify-between items-center ">
@@ -44,8 +44,8 @@ const Courses = () => {
                             <h2 className='text-[24px] lg:text-start text-center font-manrope font-semibold text-[#262626] leading-[150%]'>Web Design Fundamentals</h2>
                             <p className='text-[18px] lg:text-start text-center text-[#4C4C4D] font-manrope font-normal leaing-[150%] pt-[14px]'>Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.</p>
                         </div>
-                        <div className="pt-[30px] pb-[50px] lg:mx-0 mx-auto">
-                            <a className='text-[18px] text-[#fff] font-Vietnam lg:mx-0 mx-auto font-medium py-[18px] lg:px-[258px] px-[100px]  bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
+                        <div className="pt-[30px] pb-[50px]">
+                            <a className='text-[18px] text-[#fff] font-Vietnam font-medium lg:block flex justify-center py-[18px] lg:px-[258px]   bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
                         </div>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ const Courses = () => {
                     <div className="lg:w-[1/2] lg:mt-0 mt-[30px]">
                     <div className="bg-[#F0F0F0] rounded-[15px] lg:w-[705px]  ">
                         <div className="lg:w-[605px] lg:mx-auto mx-[25px] lg:pt-[50px] pb-[30px] py-[30px]">
-                        <div className="">
-                        <img src={robo4} alt="" />
+                        <div className="lg:block flex justify-center">
+                        <img src={robo4}  alt="" />
                         </div>
                         <div className="flex pt-[30px] justify-between items-center" >
                         <div className="flex gap-x-[10px]">
@@ -75,7 +75,7 @@ const Courses = () => {
                             <p className='text-[18px] lg:text-start text-center text-[#4C4C4D] font-manrope font-normal leaing-[150%] pt-[14px]'>Learn the fundamentals of web design, including HTML, CSS, and responsive design principles. Develop the skills to create visually appealing and user-friendly websites.</p>
                         </div>
                         <div className="pt-[30px] pb-[50px] lg:mx-0 mx-auto">
-                            <a className='text-[18px] text-[#fff] lg:mx-0 mx-auto font-Vietnam font-medium py-[18px] lg:px-[258px] px-[100px]  bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
+                            <a className='text-[18px] text-[#fff] font-Vietnam font-medium lg:block flex justify-center py-[18px] lg:px-[258px]   bg-[#002868] rounded-[8px]' href="#">Get it Now</a>
                         </div>
                         </div>
                     </div>

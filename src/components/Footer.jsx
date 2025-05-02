@@ -14,13 +14,8 @@ import { IoLocation } from "react-icons/io5";
 
 const Footer = () => {
     return (
-        <div className="bg-[url('./assets/bgb.png')] bg-cover bg-center relative z-50  overflow-hidden ">
-
-            <div className="absolute bottom-[0px] left-0 -z-40 lg:block hidden   ">
-                <img src={sahdowb} alt="" />
-            </div>
+        <div className="bg-[url('./assets/bgb.png')] bg-cover bg-centers  overflow-hidden ">
             <Container className="pb-[40px] " >
-
                 <div className=" lg:mx-0 mx-[10px]">
                     <div className="py-[32px]">
                         <div className="lg:h-[353px] w-full bg-gradient-to-r from-[#103570] to-[#004FCE] lg:rounded-[24px]   ">
@@ -84,20 +79,14 @@ const Footer = () => {
                             <h4 className='text-[18px] font-manrope text-[#001C4A] font-semibold leading-auto lg:text-start text-center'>Contact</h4>
                             <ul className='lg:pt-[39px] pt-[15px]'>
                                 <li className='flex items-center lg:justify-start justify-center text-[14px] font-manrope text-[#335386] font-normal leading-auto gap-x-[8px] lg:text-start text-center '><span className='text-[#002868]'><FaPhone className='lg:h-[24px] lg:w-[24px] h-[18px] w-[18px]' /> </span>(406) 555-0120</li>
-                                <li className='flex items-center text-[14px] lg:justify-start justify-center font-manrope text-[#335386] font-normal leading-auto gap-x-[8px] pt-[17px] lg:text-start text-center py-[20px] '><span className='text-[#002868]'><MdEmail  className='lg:h-[24px] lg:w-[24px] h-[20px] w-[20px]'/></span>Hey@boostim.com</li>
+                                <li className='flex items-center text-[14px] lg:justify-start justify-center font-manrope text-[#335386] font-normal leading-auto gap-x-[8px] pt-[17px] lg:text-start text-center py-[20px] '><span className='text-[#002868]'><MdEmail className='lg:h-[24px] lg:w-[24px] h-[20px] w-[20px]' /></span>Hey@boostim.com</li>
                                 <li className='flex  text-[14px] font-manrope text-[#335386] lg:justify-start justify-center font-normal leading-auto gap-x-[8px] lg:text-start text-center '> <span className='text-[#002868]  pt-[5px]'><IoLocation className='lg:h-[24px] lg:w-[24px] h-[20px] w-[20px]' /></span> 2972 Westheimer Rd. Santa Ana,<br /> Illinois 85486 </li>
                             </ul>
                         </div>
-
                     </div>
-
                 </div>
-
-
             </Container>
             <div className="h-[1px] bg-[#B4B4B4] mb-[90px]"></div>
-
-
         </div>
     )
 }
